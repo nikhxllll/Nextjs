@@ -1,5 +1,9 @@
+import HeroSection from "@/components/HeroSection";
+
 export default function HelloNikhil(){
   return(
-  <h1 className="text-2xl text-center mt-10">Bankai sakashima yokoshima happofusagiri!!!</h1>
+    <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
+        <HeroSection/>
+    </main>
   )
 }
