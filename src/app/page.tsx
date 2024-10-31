@@ -1,4 +1,5 @@
 import FeaturedCourses from "@/components/FeaturedCourses";
+import Footer from "@/components/Footer";
 import HeroSection from "@/components/HeroSection";
 import Instructor from "@/components/Instructor";
 import MusicSchoolTestimonials from "@/components/TestimonialCards";
@@ -14,6 +15,7 @@ export default function HelloNikhil(){
         <MusicSchoolTestimonials />
         <UpcomingWebinar />
         <Instructor />
+        <Footer />
     </main>
   )
 }
