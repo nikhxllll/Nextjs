@@ -64,7 +64,7 @@ const config: Config = {
             transform: "rotate(215deg) translateX(-500px)",
             opacity: "0",
           },
-        },
+        },//conf for meteor effect
         scroll: {
           to: {
             transform: "translate(calc(-50% - 0.5rem))",
